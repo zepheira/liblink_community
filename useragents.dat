@@ -1,0 +1,5 @@
+#First word in line must be include or excluse. Remainder of line, after whitespace is a Python/Perl regex
+#Lines starting with # (optionally after whitespace) are ignored. Blank lines are ignored
+
+include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
+exclude AhrefsBot/.*
