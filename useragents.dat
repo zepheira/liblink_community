@@ -4,7 +4,7 @@
 # include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
-exclude DuckDuckBot/.*; \(+http://duckduckgo.com/duckduckbot.html\)
+exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
 exclude Mozilla/5.0 \(compatible; AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(compatible; BLEXBot/.*; \+http://webmeup-crawler.com/\)
@@ -34,6 +34,7 @@ exclude facebookexternalhit/.* \(+http://www.facebook.com/externalhit_uatext.php
 exclude facebookexternalhit/.* \(\+http://www.facebook.com/externalhit_uatext.php\)
 exclude facebot
 exclude ia_archiver \(\+http://www.alexa.com/site/help/webmasters; crawler@alexa.com\)
+exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
 exclude canonical
 exclude embedded
