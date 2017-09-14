@@ -21,6 +21,7 @@ exclude Mozilla/5.0 \(compatible; SemrushBot/.*\~bl; \+http://www.semrush.com/bo
 exclude Mozilla/5.0 \(compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
 exclude Mozilla/5.0 \(compatible; linkdexbot/.*; \+http://www.linkdex.com/bots/\)
 exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
+exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/3.5 aiohttp/.*
 exclude Sogou Orion spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
