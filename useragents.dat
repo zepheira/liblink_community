@@ -7,12 +7,15 @@
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
 exclude Mozilla/5.0 \(compatible; AhrefsBot/.*; \+http://ahrefs.com/robot/\)
+exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*) AppleWebKit/.* (KHTML, like Gecko) Version/.* Safari/.* (Applebot/.*; +http://www.apple.com/go/applebot
 exclude Mozilla/5.0 \(compatible; BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude Mozilla/5.0 \(compatible; Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
 exclude Mozilla/5.0 \(compatible; [Bb]ingbot/.*; \+http://www.bing.com/bingbot.htm\)
+exclude Mozilla/5.0 \(iPhone; CPU iPhone OS.* like Mac OS X) AppleWebKit/.* (KHTML, like Gecko) Version/.* Mobile/.* Safari/.* (compatible; bingbot/.*; +http://www.bing.com/bingbot.htm)
 exclude Mozilla/5.0 \(compatible; DotBot/.*; http://www.opensiteexplorer.org/dotbot, help@moz.com\)
 exclude Mozilla/5.0 \(compatible; Exabot/.*; \+http://www.exabot.com/go/robot\)
 exclude Mozilla/5.0 \(compatible; Googlebot/.*; \+http://www.google.com/bot.html\)
+exclude Mozilla/5.0 \(Linux; Android/.*; Nexus/.*) AppleWebKit/.* (KHTML, like Gecko) Chrome/.* Mobile Safari/.* (compatible; Googlebot/.*; +http://www.google.com/bot.html)
 exclude Mozilla/5.0 \(compatible; Konqueror/.*; Linux\) KHTML/3.5.5 \(like Gecko\) \(Exabot-Thumbnails\)
 exclude Mozilla/5.0 \(compatible; MJ12bot/.*; http://mj12bot.com/\)
 exclude Mozilla/5.0 \(compatible; MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
