@@ -4,6 +4,7 @@
 # include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
+exclude Companybook-Crawler \(+https://www.companybooknetworking.com/)
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
 exclude Mozilla/5.0 \(compatible; AhrefsBot/.*; \+http://ahrefs.com/robot/\)
@@ -27,6 +28,7 @@ exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
 exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/3.5 aiohttp/.*
+exclude panscient.com 
 exclude Sogou Orion spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
 exclude Sogou Pic Spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
 exclude Sogou head spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
@@ -42,3 +44,4 @@ exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
 exclude canonical
 exclude embedded
+exclude Slackbot-LinkExpanding /.* \(+https://api.slack.com/robots)
