@@ -44,4 +44,4 @@ exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
 exclude canonical
 exclude embedded
-exclude Slackbot-LinkExpanding /.* \(+https://api.slack.com/robots)
+exclude SocialRankIOBot; \http://socialrank.io/about
