@@ -45,3 +45,4 @@ exclude Twitterbot/.*
 exclude canonical
 exclude embedded
 exclude SocialRankIOBot; \http://socialrank.io/about
+exclude CCBot/.* \http://commoncrawl.org/about/
