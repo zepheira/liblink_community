@@ -41,7 +41,8 @@ exclude facebot
 exclude ia_archiver \(\+http://www.alexa.com/site/help/webmasters; crawler@alexa.com\)
 exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
-exclude canonical
-exclude embedded
 exclude SocialRankIOBot; http://socialrank.io/about
 exclude CCBot/.* http://commoncrawl.org/about/
+exclude ltx71.*\(http://ltx71.com/\)
+exclude canonical
+exclude embedded
