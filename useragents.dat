@@ -44,5 +44,6 @@ exclude Twitterbot/.*
 exclude SocialRankIOBot; http://socialrank.io/about
 exclude CCBot/.* http://commoncrawl.org/about/
 exclude ltx71.*\(http://ltx71.com/\)
+exclude Zepheira QA/.*
 exclude canonical
 exclude embedded
