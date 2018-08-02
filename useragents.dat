@@ -4,6 +4,10 @@
 # include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
+exclude MauiBot (crawler.feedback+wc@gmail.com)
+exclude CCBot/2.0 (http://commoncrawl.org/faq/)
+exclude Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w
+exclude Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
 exclude Companybook-Crawler \(\+https://www.companybooknetworking.com/\)
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
