@@ -4,6 +4,10 @@
 # include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
+exclude Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+exclude YisouSpider
+exclude Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+exclude Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
 exclude MauiBot (crawler.feedback+wc@gmail.com)
 exclude CCBot/2.0 (http://commoncrawl.org/faq/)
 exclude Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w
