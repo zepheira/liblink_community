@@ -1,38 +1,37 @@
-# First word in line must be include or excluse. Remainder of line, after whitespace is a Python/Perl regex
-# Lines starting with # (optionally after whitespace) are ignored. Blank lines are ignored
+# First word in line must be include or exclude. Remainder of line, after whitespace is a Python/Perl regex
+# Regex must match the entire user agents string.
+# Lines starting with # (optionally after whitespace) are ignored. Blank lines are ignored.
 # Example: 
 # include Mozilla/5.0 (Windows NT .*) AppleWebKit/[\d\.]* (KHTML, like Gecko) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
-exclude Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+exclude .*[Cc]rawler.*
+exclude .*[Ss]pider.*
+exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
 exclude YisouSpider
-exclude Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-exclude Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
-exclude MauiBot (crawler.feedback+wc@gmail.com)
-exclude CCBot/2.0 (http://commoncrawl.org/faq/)
-exclude Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w
-exclude Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
+exclude CCBot/.* \(http://commoncrawl.org/faq/\)
+exclude .* Qwantify/.*; +https://www.qwant.com/\)/.*
 exclude Companybook-Crawler \(\+https://www.companybooknetworking.com/\)
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
-exclude Mozilla/5.0 \(compatible; AhrefsBot/.*; \+http://ahrefs.com/robot/\)
+exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
-exclude Mozilla/5.0 \(compatible; BLEXBot/.*; \+http://webmeup-crawler.com/\)
-exclude Mozilla/5.0 \(compatible; Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
-exclude Mozilla/5.0 \(compatible; \[Bb\]ingbot/.*; \+http://www.bing.com/bingbot.htm\)
+exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
+exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
+exclude .* [Bb]ingbot/.*; \+http://www.bing.com/bingbot.html?\)
 exclude Mozilla/5.0 \(iPhone; CPU iPhone OS.* like Mac OS X\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Mobile/.* Safari/.* \(compatible; bingbot/.*; \+http://www.bing.com/bingbot.htm\)
-exclude Mozilla/5.0 \(compatible; DotBot/.*; http://www.opensiteexplorer.org/dotbot, help@moz.com\)
-exclude Mozilla/5.0 \(compatible; Exabot/.*; \+http://www.exabot.com/go/robot\)
-exclude Mozilla/5.0 \(compatible; Googlebot/.*; \+http://www.google.com/bot.html\)
-exclude Mozilla/5.0 \(Linux; Android/.*; Nexus/.*\) AppleWebKit/.* \(KHTML, like Gecko\) Chrome/.* Mobile Safari/.* \(compatible; Googlebot/.*; \+http://www.google.com/bot.html\)
-exclude Mozilla/5.0 \(compatible; Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
-exclude Mozilla/5.0 \(compatible; MJ12bot/.*; http://mj12bot.com/\)
-exclude Mozilla/5.0 \(compatible; MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
-exclude Mozilla/5.0 \(compatible; MegaIndex.ru/.*; \+http://megaindex.com/crawler\)
-exclude Mozilla/5.0 \(compatible; SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
-exclude Mozilla/5.0 \(compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
-exclude Mozilla/5.0 \(compatible; linkdexbot/.*; \+http://www.linkdex.com/bots/\)
-exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
+exclude .* DotBot/.*; http://www.opensiteexplorer.org/dotbot, help@moz.com\)
+exclude .* Exabot/.*; \+http://www.exabot.com/go/robot\)
+exclude .* Googlebot/.*; \+http://www.google.com/bot.html\)
+exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
+exclude .* MJ12bot/.*; http://mj12bot.com/\)
+exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
+exclude .* MegaIndex.ru/.*; \+http://megaindex.com/crawler\)
+exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
+exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
+exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
+exclude .* Yandex(Mobile)?Bot/.*; \+http://yandex.com/bots\)
 exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/.* aiohttp/.*
