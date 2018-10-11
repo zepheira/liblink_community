@@ -10,6 +10,7 @@ exclude .*[Ss]pider.*
 exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
 exclude YisouSpider
 exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
+exclude CCBot/.* \(https://commoncrawl.org/faq/\)
 exclude CCBot/.* \(http://commoncrawl.org/faq/\)
 exclude .* Qwantify/.*; +https://www.qwant.com/\)/.*
 exclude Companybook-Crawler \(\+https://www.companybooknetworking.com/\)
