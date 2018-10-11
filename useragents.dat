@@ -58,3 +58,4 @@ exclude Zepheira QA/.*
 exclude canonical
 exclude embedded
 exclude Blackboard Safeassign
+exclude ia_archiver
