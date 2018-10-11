@@ -12,7 +12,7 @@ exclude YisouSpider
 exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
 exclude CCBot/.* \(https://commoncrawl.org/faq/\)
 exclude CCBot/.* \(http://commoncrawl.org/faq/\)
-exclude .* Qwantify/.*; +https://www.qwant.com/\)/.*
+exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
 exclude Companybook-Crawler \(\+https://www.companybooknetworking.com/\)
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
