@@ -18,6 +18,7 @@ exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
 exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
+exclude Mozilla/5.0 (compatible; SEOkicks; +https://www.seokicks.de/robot.html)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
 exclude .* [Bb]ingbot/.*; \+http://www.bing.com/bingbot.html?\)
