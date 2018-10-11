@@ -57,3 +57,4 @@ exclude ltx71.*\(http://ltx71.com/\)
 exclude Zepheira QA/.*
 exclude canonical
 exclude embedded
+exclude Blackboard Safeassign
