@@ -18,6 +18,7 @@ exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
 exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
+exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
@@ -33,7 +34,7 @@ exclude .* MegaIndex.ru/.*; \+http://megaindex.com/crawler\)
 exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
 exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
 exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
-exclude .* Yandex(Mobile)?Bot/.*; \+http://yandex.com/bots\)
+exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
 exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/.* aiohttp/.*
@@ -56,4 +57,4 @@ exclude ltx71.*\(http://ltx71.com/\)
 exclude Zepheira QA/.*
 exclude canonical
 exclude embedded
-exclude MauiBot (crawler.feedback+wc@gmail.com)
+exclude MauiBot \(crawler.feedback+wc@gmail.com\)
