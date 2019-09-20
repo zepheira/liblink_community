@@ -20,6 +20,7 @@ exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
 exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
+exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
 exclude .* [Bb]ingbot/.*; \+http://www.bing.com/bingbot.html?\)
