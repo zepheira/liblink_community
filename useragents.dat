@@ -11,8 +11,8 @@ exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
 ## should be blocked by the generic spider rule
 # exclude YisouSpider
 exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
-exclude CCBot/.* \(https?://commoncrawl.org/faq/\)
-## regex above now covers both of these cases
+## out of date, see below
+# exclude CCBot/.* \(https://commoncrawl.org/faq/\)
 # exclude CCBot/.* \(http://commoncrawl.org/faq/\)
 exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
 ## should be blocked by generic crawler rule
@@ -70,8 +70,7 @@ exclude ia_archiver
 exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
 exclude SocialRankIOBot; http://socialrank.io/about
-## already defined above
-# exclude CCBot/.*http://commoncrawl.org/about/
+exclude CCBot/.*http://commoncrawl.org/about/
 exclude ltx71.*\(http://ltx71.com/\)
 exclude PiplBot.*\(\+http://www.pipl.com/bot/\)
 exclude Zepheira QA/.*
