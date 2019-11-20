@@ -20,7 +20,7 @@ exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
 exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
-exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
+exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\).*
 exclude Linguee Bot \(\+http://www.linguee.com/bot; bot@linguee.com\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
@@ -37,9 +37,11 @@ exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
 exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
 exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
 exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
+exclude Mozilla/5\.0 \(compatible; YandexAccessibilityBot/3\.0; \+http://yandex\.com/bots\)
 exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/.* aiohttp/.*
+exclude python-requests/.*
 exclude panscient.com 
 exclude Sogou Orion spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
 exclude Sogou Pic Spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
@@ -62,3 +64,12 @@ exclude canonical
 exclude embedded
 exclude Blackboard Safeassign
 exclude ia_archiver
+exclude weborama-fetcher \(\+http://www\.weborama\.com\)
+exclude .* \(Applebot/.*; \+http://www\.apple\.com/go/applebot\)
+exclude serpstatbot/.*
+exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
+exclude .* UCBrowser/.*
+exclude .* LieBaoFast/.*
+exclude .* Mb2345Browser/.*
+exclude .* Mobile MQQBrowser/.* MicroMessenger/.*
+
