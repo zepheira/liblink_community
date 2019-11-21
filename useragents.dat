@@ -8,60 +8,50 @@
 exclude .*[Cc]rawler.*
 exclude .*[Ss]pider.*
 exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
-exclude YisouSpider
-exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
 exclude CCBot/.* \(https://commoncrawl.org/faq/\)
-exclude CCBot/.* \(http://commoncrawl.org/faq/\)
+# no hits
 exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
-exclude Companybook-Crawler \(\+https://www.companybooknetworking.com/\)
+# no hits
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
-exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
-exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
-exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
-exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
+# no hits
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
 exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\).*
 exclude Linguee Bot \(\+http://www.linguee.com/bot; bot@linguee.com\)
+# no hits
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
-exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
 exclude .* [Bb]ingbot/.*; \+http://www.bing.com/bingbot.html?\)
-exclude Mozilla/5.0 \(iPhone; CPU iPhone OS.* like Mac OS X\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Mobile/.* Safari/.* \(compatible; bingbot/.*; \+http://www.bing.com/bingbot.htm\)
 exclude .* DotBot/.*; http://www.opensiteexplorer.org/dotbot, help@moz.com\)
+# no hits
 exclude .* Exabot/.*; \+http://www.exabot.com/go/robot\)
 exclude .* Googlebot/.*; \+http://www.google.com/bot.html\)
+# no hits
 exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
 exclude .* MJ12bot/.*; http://mj12bot.com/\)
+# no hits
 exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
-exclude .* MegaIndex.ru/.*; \+http://megaindex.com/crawler\)
-exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
+# no hits
 exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
+# no hits
 exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
+# no hits
 exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
 exclude Mozilla/5\.0 \(compatible; YandexAccessibilityBot/3\.0; \+http://yandex\.com/bots\)
-exclude Mozilla/5.0 \(compatible; SiteExplorer/.*; \+http://siteexplorer.info/Backlink-Checker-Spider/\)
+# no hits
 exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/.* aiohttp/.*
 exclude python-requests/.*
+# no hits
 exclude panscient.com 
-exclude Sogou Orion spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
-exclude Sogou Pic Spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
-exclude Sogou head spider/.* \(http://www.sogou.com/docs/help/webmasters.htm#07\)
-exclude Sogou web spider/.* \(\+http://www.sogou.com/docs/help/webmasters.htm#07\)
-exclude Sogou-Test-Spider/.* \(compatible; MSIE .*; Windows 98\)
-exclude TurnitinBot \(https://turnitin.com/robot/crawlerinfo.html\)
-exclude erdc-gsadev-crawler \(Enterprise; T4-CAJN8GR8VSNFA; christopher.a.boler@erdc.dren.mil\)
 exclude facebookexternalhit/.* \(\+http://www.facebook.com/externalhit_uatext.php\)
-exclude facebot
-exclude ia_archiver \(\+http://www.alexa.com/site/help/webmasters; crawler@alexa.com\)
+# no hits
 exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
+# no hits
 exclude SocialRankIOBot; http://socialrank.io/about
-exclude CCBot/.*http://commoncrawl.org/about/
+# no hits
 exclude ltx71.*\(http://ltx71.com/\)
 exclude PiplBot.*\(\+http://www.pipl.com/bot/\)
 exclude Zepheira QA/.*
-exclude canonical
-exclude embedded
 exclude Blackboard Safeassign
 exclude ia_archiver
 exclude weborama-fetcher \(\+http://www\.weborama\.com\)
