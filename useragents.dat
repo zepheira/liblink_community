@@ -72,4 +72,4 @@ exclude .* UCBrowser/.*
 exclude .* LieBaoFast/.*
 exclude .* Mb2345Browser/.*
 exclude .* Mobile MQQBrowser/.* MicroMessenger/.*
-
+exclude .* Daum/.*; \+http://cs\.daum\.net.*
