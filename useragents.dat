@@ -61,6 +61,7 @@ exclude The Knowledge AI
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
+exclude Linguee Bot \(http://www\.linguee\.com/bot; bot@linguee\.com\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
@@ -76,7 +77,6 @@ exclude .* linkdexbot/.*; \+http://www\.linkdex\.com/bots/\)
 ## ...
 exclude Zepheira QA/.*
 exclude DuckDuckBot/.*; \(\+http://duckduckgo\.com/duckduckbot\.html\)
-exclude Linguee Bot \(\+http://www\.linguee\.com/bot; bot@linguee\.com\)
 exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler\.com/\)
 exclude .* Exabot/.*; \+http://www\.exabot\.com/go/robot\)
