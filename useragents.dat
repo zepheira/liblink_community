@@ -10,9 +10,10 @@ exclude .*[Ss]pider.*
 exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
 ## should be blocked by the generic spider rule
 # exclude YisouSpider
-exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
-## out of date, see below
-# exclude CCBot/.* \(https://commoncrawl.org/faq/\)
+## blocked
+# exclude MauiBot \(crawler.feedback\+wc@gmail.com\)
+exclude CCBot/.* \(https://commoncrawl.org/faq/\)
+## out of date
 # exclude CCBot/.* \(http://commoncrawl.org/faq/\)
 exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
 ## should be blocked by generic crawler rule
@@ -20,10 +21,12 @@ exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
 exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
 ## should be blocked by generic crawler rule
 # exclude GarlikCrawler/.* \(http://garlik.com/, crawler@garlik.com\)
-exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
+## blocked
+# exclude .* AhrefsBot/.*; \+http://ahrefs.com/robot/\)
 ## this didn't work to block the apple bot, potentially added correctly in a different PR - missing end paren
 # exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Safari/.* \(Applebot/.*; \+http://www.apple.com/go/applebot
-exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
+## this didn't work to block the daum library
+# exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
 ## this didn't work to block the Yandex bot, potentially fixed in a different PR - account for suffixes
 # exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
@@ -39,9 +42,10 @@ exclude .* Googlebot/.*; \+http://www.google.com/bot.html\)
 exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
 exclude .* MJ12bot/.*; http://mj12bot.com/\)
 exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
-## should be covered by generic crawler rule
+## should be covered by generic crawler rule, also blocked
 # exclude .* MegaIndex.ru/.*; \+http://megaindex.com/crawler\)
-exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
+## blocked
+# exclude .* SemrushBot/.*\~bl; \+http://www.semrush.com/bot.html\)
 exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
 exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
 exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
@@ -70,7 +74,8 @@ exclude ia_archiver
 exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
 exclude SocialRankIOBot; http://socialrank.io/about
-exclude CCBot/.*http://commoncrawl.org/about/
+## out of date, already described above
+# exclude CCBot/.*http://commoncrawl.org/about/
 exclude ltx71.*\(http://ltx71.com/\)
 exclude PiplBot.*\(\+http://www.pipl.com/bot/\)
 exclude Zepheira QA/.*
