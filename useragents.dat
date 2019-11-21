@@ -9,47 +9,17 @@ exclude .*[Cc]rawler.*
 exclude .*[Ss]pider.*
 exclude .* Mail.RU_Bot/.*; \+http://go.mail.ru/help/robots\)
 exclude CCBot/.* \(https://commoncrawl.org/faq/\)
-# no hits
-exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
-# no hits
-exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
-# no hits
-exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
 exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\).*
 exclude Linguee Bot \(\+http://www.linguee.com/bot; bot@linguee.com\)
-# no hits
-exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* [Bb]ingbot/.*; \+http://www.bing.com/bingbot.html?\)
 exclude .* DotBot/.*; http://www.opensiteexplorer.org/dotbot, help@moz.com\)
-# no hits
-exclude .* Exabot/.*; \+http://www.exabot.com/go/robot\)
 exclude .* Googlebot/.*; \+http://www.google.com/bot.html\)
-# no hits
-exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
 exclude .* MJ12bot/.*; http://mj12bot.com/\)
-# no hits
-exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
-# no hits
-exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
-# no hits
-exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
-# no hits
-exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
 exclude Mozilla/5\.0 \(compatible; YandexAccessibilityBot/3\.0; \+http://yandex\.com/bots\)
-# no hits
-exclude Apache-HttpClient/.* \(Java/.*\)
 exclude Python/.* aiohttp/.*
 exclude python-requests/.*
-# no hits
-exclude panscient.com 
 exclude facebookexternalhit/.* \(\+http://www.facebook.com/externalhit_uatext.php\)
-# no hits
-exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
 exclude Twitterbot/.*
-# no hits
-exclude SocialRankIOBot; http://socialrank.io/about
-# no hits
-exclude ltx71.*\(http://ltx71.com/\)
 exclude PiplBot.*\(\+http://www.pipl.com/bot/\)
 exclude Zepheira QA/.*
 exclude Blackboard Safeassign
@@ -72,3 +42,20 @@ exclude .* UCBrowser/.*
 
 ##### This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0; \.NET CLR 2\.0\.50727\)
+
+##### No recent hits
+exclude .* Qwantify/.*; \+https://www.qwant.com/\)/.*
+exclude DuckDuckBot/.*; \(\+http://duckduckgo.com/duckduckbot.html\)
+exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
+exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
+exclude .* Exabot/.*; \+http://www.exabot.com/go/robot\)
+exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
+exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove.com
+exclude .* Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp\)
+exclude .* linkdexbot/.*; \+http://www.linkdex.com/bots/\)
+exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex.com/bots\)
+exclude Apache-HttpClient/.* \(Java/.*\)
+exclude panscient.com
+exclude Slackbot-LinkExpanding .* \(\+https://api.slack.com/robots\)
+exclude SocialRankIOBot; http://socialrank.io/about
+exclude ltx71.*\(http://ltx71.com/\)
