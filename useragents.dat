@@ -58,10 +58,13 @@ exclude python-requests/.*
 exclude .* Qwantify/.*; \+https://www\.qwant\.com/\)/.*
 ## Yes, this is the entire UA.
 exclude The Knowledge AI
+## Someone working from the command line.
+exclude .* HeadlessChrome/.*
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
 exclude Linguee Bot \(http://www\.linguee\.com/bot; bot@linguee\.com\)
+exclude eContext/1\.0 \(eContext Classification Engine\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
