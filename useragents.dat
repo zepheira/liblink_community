@@ -21,6 +21,10 @@ exclude Mozilla/5.0 \(Macintosh; Intel Mac OS X.*\) AppleWebKit/.* \(KHTML, like
 exclude Mozilla/5.0 \(compatible; Daum/.*; \+http://cs.daum.net/faq/15/4118.html?faqId=28966\)
 exclude Mozilla/5.0 \(compatible; SEOkicks; \+https://www.seokicks.de/robot.html\)
 exclude Mozilla/5.0 \(compatible; YandexBot/.*; \+http://yandex.com/bots\)
+exclude Mozilla/5.0 \(Linux;Android .*;OPPO A33 Build/LMY47V;wv\) AppleWebKit/537.36(KHTML,link Gecko) Version/.* Chrome/.* Mobile Safari/.* Mb2345Browser/.*
+exclude Mozilla/5.0 \(Linux; Android .*; FRD-AL00 Build/HUAWEIFRD-AL00; wv\) AppleWebKit/.* \(KHTML, like Gecko\) Version/.* Chrome/.* Mobile MQQBrowser/.* TBS/.* Safari/.* MicroMessenger/.* NetType/WIFI Language/zh_CN
+exclude Mozilla/5.0 \(Linux;Android .*;OPPO A33 Build/LMY47V;wv\) AppleWebKit/.*\(KHTML,link Gecko\) Version/.* Chrome/.* Mobile Safari/.* LieBaoFast/.*
+exclude Mozilla/5.0 \(Linux;U;Android .*;zh-CN;OPPO A33 Build/LMY47V\) AppleWebKit/.*(KHTML,like Gecko) Version/.* Chrome/.* UCBrowser/.* Mobile Safari/.*
 exclude Linguee Bot \(\+http://www.linguee.com/bot; bot@linguee.com\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler.com/\)
 exclude .* Baiduspider/.*; \+http://www.baidu.com/search/spider.html\)
