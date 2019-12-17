@@ -25,7 +25,7 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 #$ 50,000 hits/day
 exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
 ## Hiding behind an old user agent.
-eclude Mozilla/5\.0 \(Windows NT 10\.0; rv:68\.0\) Gecko/20100101 Firefox/68\.0
+exclude Mozilla/5\.0 \(Windows NT 10\.0; rv:68\.0\) Gecko/20100101 Firefox/68\.0
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
