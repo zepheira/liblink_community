@@ -9,6 +9,7 @@
 #$ over 100,000 hits/day
 ## Most hits.
 exclude .* MJ12bot/.*; http://mj12bot\.com/\)
+exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
 
 ## Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
 exclude .*[Cc]rawler.*
@@ -23,6 +24,8 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 
 #$ 50,000 hits/day
 exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
+## Hiding behind an old user agent.
+eclude Mozilla/5\.0 \(Windows NT 10\.0; rv:68\.0\) Gecko/20100101 Firefox/68\.0
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
@@ -80,7 +83,6 @@ exclude .* linkdexbot/.*; \+http://www\.linkdex\.com/bots/\)
 ## ...
 exclude Zepheira QA/.*
 exclude DuckDuckBot/.*; \(\+http://duckduckgo\.com/duckduckbot\.html\)
-exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
 exclude .* BLEXBot/.*; \+http://webmeup-crawler\.com/\)
 exclude .* Exabot/.*; \+http://www\.exabot\.com/go/robot\)
 exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
