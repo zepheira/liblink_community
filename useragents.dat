@@ -24,9 +24,8 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 
 #$ 50,000 hits/day
 exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
-## Appears to be a distributed crawler using a limited variety of old user agents. 
-exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.(6|7|8|9|10); rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0 
-exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0 
+## Hiding behind an old user agent, may be early .xyz spam.
+eclude Mozilla/5\.0 \(Windows NT 10\.0; rv:68\.0\) Gecko/20100101 Firefox/68\.0
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
