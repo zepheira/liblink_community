@@ -40,7 +40,7 @@ exclude serpstatbot/.*
 ## Generic rule for anything identifying itself as a spider.  Avoid adding anything else that matches this.
 exclude .*[Ss]pider.*
 ## The Splash scraper: https://github.com/scrapinghub/splash - fakes UAs but with its own signature
-exclue .* splash Version/.* .*
+exclude .* splash Version/.* .*
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
