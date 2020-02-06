@@ -1,9 +1,8 @@
-# First word in line must be include or exclude. Remainder of line, after whitespace is a Python/Perl regex
+# First word in line must be or exclude. Remainder of line, after whitespace is a regex.
 # Regex must match the entire user agents string.
 # Lines starting with # (optionally after whitespace) are ignored. Blank lines are ignored.
-# Include by default.  Only include if a more generic exclude would have excluded it and a more specific include adds it back.
+# Include by default.
 # Example: 
-# include Mozilla/5\.0 \(Windows NT .*\) AppleWebKit/[\d\.]* \(KHTML, like Gecko\) Chrome/[\d\.]* Safari/[\d\.]*
 # exclude AhrefsBot/.*
 
 #$ over 100,000 hits/day
@@ -54,6 +53,7 @@ exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0; \.N
 ## Yes, this is the entire UA.
 exclude Blackboard Safeassign
 exclude .* Daum/.*; \+http://cs\.daum\.net.*
+exclude Mozilla/5\.0 \(\(Windows; U; Windows NT 6\.1; fr; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6\)
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
