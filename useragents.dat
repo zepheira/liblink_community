@@ -72,6 +72,8 @@ exclude .* Qwantify/.*; \+https://www\.qwant\.com/\)/.*
 exclude The Knowledge AI
 ## Someone working from the command line.
 exclude .* HeadlessChrome/.*
+## 2020-02-14
+exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/74\.0\.3729\.157 Safari/537\.36
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
