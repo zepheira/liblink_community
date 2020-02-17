@@ -65,7 +65,7 @@ exclude Blackboard Safeassign
 exclude .* Daum/.*; \+http://cs\.daum\.net.*
 exclude Mozilla/5\.0 \(\(Windows; U; Windows NT 6\.1; fr; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6\)
 ## Obvious crawler hiding behind a very recent UA, remove as soon as it stops.
-exclude Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/77\.0\.3865\.120 Safari/537\.36
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
