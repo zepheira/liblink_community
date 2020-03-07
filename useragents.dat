@@ -8,9 +8,13 @@
 #$ over 100,000 hits/day
 ## Most hits.
 exclude .* MJ12bot/.*; http://mj12bot\.com/\)
-# Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
+## Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
 exclude .*[Cc]rawler.*
 exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
+## This one appears to be a bit indecisive, using the non-mozilla string for a few and the
+## mozilla string for a whole ton.
+exclude Mozilla/5\.0 \(compatible;AspiegelBot\)
+exclude Aspiegel[bB]ot
 
 #$ 100,000 hits/day
 ## Chinese bots.  The next four appear to work in concert.
@@ -59,7 +63,7 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 exclude Mozilla/5\.0 \(iPad; CPU OS 7_0 like Mac OS X\) AppleWebKit/537\.51\.1 \(KHTML, like Gecko\) Version/7\.0 Mobile/11A465 Safari/9537\.53
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
-exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0; \.NET CLR 2\.0\.50727\)
+exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0 .*
 
 #$ 1,000 hits/day
 ## Yes, this is the entire UA.
@@ -89,6 +93,8 @@ exclude eContext/1\.0 \(eContext Classification Engine\)
 exclude Mozilla/5\.0 \(X11; U; Linux i686; en-GB; rv:1\.8\.1\.10\) Gecko/20071126 Ubuntu/7\.10 \(gutsy\) Firefox/2\.0\.0\.10
 ## The entirety of one bogus UA.
 exclude Mozilla/4\.0
+## Fake Facebook bot, missing the first letter
+exclude acebookexternalhit/1\.0 \(+http://www.facebook.com/externalhit_uatext\.php\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
@@ -109,8 +115,7 @@ exclude .* Exabot/.*; \+http://www\.exabot\.com/go/robot\)
 exclude .* Konqueror/.*; Linux\) KHTML/.* \(like Gecko\) \(Exabot-Thumbnails\)
 exclude .* MSIE .*; Windows NT .*; Trident/.*\) LinkCheck by Siteimprove\.com
 exclude .* Yahoo! Slurp; http://help\.yahoo\.com/help/us/ysearch/slurp\)
-## May have been superceded by the accessibility version.
-exclude .* Yandex\(Mobile\)?Bot/.*; \+http://yandex\.com/bots\)
+exclude .* Yandex(Mobile)?Bot/.*; \+http://yandex\.com/bots\)
 exclude Apache-HttpClient/.* \(Java/.*\)
 ## Yes, this is the entire UA.
 exclude panscient\.com
