@@ -63,7 +63,7 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 exclude Mozilla/5\.0 \(iPad; CPU OS 7_0 like Mac OS X\) AppleWebKit/537\.51\.1 \(KHTML, like Gecko\) Version/7\.0 Mobile/11A465 Safari/9537\.53
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
-exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0 .*
+exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0; .*\)
 
 #$ 1,000 hits/day
 ## Yes, this is the entire UA.
