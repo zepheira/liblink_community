@@ -11,9 +11,9 @@ exclude .* MJ12bot/.*; http://mj12bot\.com/\)
 ## Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
 exclude .*[Cc]rawler.*
 exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
-## This one appears to be a bit indecisive, using the non-mozilla string for a few and the
-## mozilla string for a whole ton.
-exclude Mozilla/5\.0 \(compatible;AspiegelBot\)
+## This one appears to be a bit indecisive, using the undecorated string for a few and then
+## some variants 100,000 times
+exclude .*AspiegelBot.*
 exclude Aspiegel[bB]ot
 
 #$ 100,000 hits/day
