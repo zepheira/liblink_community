@@ -95,6 +95,7 @@ exclude Mozilla/5\.0 \(X11; U; Linux i686; en-GB; rv:1\.8\.1\.10\) Gecko/2007112
 exclude Mozilla/4\.0
 ## Fake Facebook bot, missing the first letter
 exclude acebookexternalhit/1\.0 \(\+http://www\.facebook\.com/externalhit_uatext\.php\)
+exclude Keybot Translation-Search-Machine
 
 #$ 10 hits/day
 exclude Twitterbot/.*
