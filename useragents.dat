@@ -33,6 +33,8 @@ exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/34\.0\.1847\.131 Safari/537\.36
 exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6
 exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64; rv:73\.0\) Gecko/20100101 Firefox/73\.0
+## 2020-03-20
+exclude Molokai/0\.2 \(+http://www\.example\.com/bot\.html\)
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
@@ -84,6 +86,8 @@ exclude The Knowledge AI
 exclude .* HeadlessChrome/.*
 ## 2020-02-14
 exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/74\.0\.3729\.157 Safari/537\.36
+## 2020-03-20, unbelievable Windows 7 renaissance
+exclude Mozilla/5\.0 \(Windows NT 6\.1\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/.* Safari/537\.36
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
