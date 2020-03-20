@@ -34,7 +34,7 @@ exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64\) AppleWebKit/537\.36 \(KHTML, lik
 exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6
 exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64; rv:73\.0\) Gecko/20100101 Firefox/73\.0
 ## 2020-03-20
-exclude Molokai/0\.2 \(+http://www\.example\.com/bot\.html\)
+exclude Molokai/0\.2 \(\+http://www\.example\.com/bot\.html\)
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
