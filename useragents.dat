@@ -29,7 +29,7 @@ exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
 ## Distributed crawler hiding behind a randomized combination of old user agent pieces. Probin
 ## for vulnerabilities.
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.(6|7|8|9|10); rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0 
-exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0
+exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(37|38|43|56|68)\.0\) Gecko/20100101 Firefox/(37|38|43|56|68)\.0
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/34\.0\.1847\.131 Safari/537\.36
 exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6
 exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64; rv:73\.0\) Gecko/20100101 Firefox/73\.0
@@ -65,7 +65,7 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 exclude Mozilla/5\.0 \(iPad; CPU OS 7_0 like Mac OS X\) AppleWebKit/537\.51\.1 \(KHTML, like Gecko\) Version/7\.0 Mobile/11A465 Safari/9537\.53
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
-exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.1; Trident/4\.0; .*
+exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
 
 #$ 1,000 hits/day
 ## Yes, this is the entire UA.
