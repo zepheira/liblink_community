@@ -8,6 +8,7 @@
 #$ over 100,000 hits/day
 ## Most hits.
 exclude .* MJ12bot/.*; http://mj12bot\.com/\)
+exclude .* PetalBot;.*
 ## Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
 exclude .*[Cc]rawler.*
 exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
@@ -26,15 +27,18 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 
 #$ 50,000 hits/day
 exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
-## Distributed crawler hiding behind a randomized combination of old user agent pieces. Probin
+## Distributed crawler hiding behind a randomized combination of old user agent pieces. Probing
 ## for vulnerabilities.
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.(6|7|8|9|10); rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0 
-exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(37|38|43|56|68)\.0\) Gecko/20100101 Firefox/(37|38|43|56|68)\.0
+exclude Mozilla/5\.0 \(Windows NT (6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(37|38|43|56|68|76)\.0\) Gecko/20100101 Firefox/(37|38|43|56|68|76)\.0
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/34\.0\.1847\.131 Safari/537\.36
 exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6
 exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64; rv:73\.0\) Gecko/20100101 Firefox/73\.0
+exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/68\.0\.3440\.7 Safari/537\.36
 ## 2020-03-20
 exclude Molokai/0\.2 \(\+http://www\.example\.com/bot\.html\)
+## 2020-05
+exclude Mozilla/4\.0 \(compatible; MSIE 6\.0; Windows NT 5\.1; SV1; \.NET CLR 2\.0\.50727; \.NET CLR 1\.1\.4322\)
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
@@ -68,6 +72,9 @@ exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\)
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
+exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 6\.0; Trident/4\.0\)
+## This is an older user agent possibly being abused by a bot.  2020-05
+exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/63\.0\.3239\.84 Safari/537\.36
 
 #$ 1,000 hits/day
 ## Yes, this is the entire UA.
@@ -93,6 +100,8 @@ exclude Mozilla/5\.0 \(Windows NT 6\.1\) AppleWebKit/537\.36 \(KHTML, like Gecko
 ## 2020-04-14
 exclude Re-re Studio \(\+http://2re\.site/\)
 exclude CcahiBot \(ccahi\.feedback\@gmail\.com\)
+## 2020-05
+exclude Mozilla/5\.0 \(Windows NT 6\.2; WOW64; Trident/7\.0; rv:11\.0\) like Gecko
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -108,6 +117,9 @@ exclude Keybot Translation-Search-Machine
 exclude 7Siters/.* \(\+https://7ooo\.ru/siters/\)
 ##2020-04-14
 exclude Gigabot
+## 2020-05
+exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 6\.1; WOW64; Trident/4\.0; SLCC2; \.NET CLR 2\.0\.50727; InfoPath\.2\)
+exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 6\.1; SLCC2; \.NET CLR 2\.0\.50727; \.NET CLR 3\.5\.30729; \.NET CLR 3\.0\.30729; Media Center PC 6\.0; \.NET4\.0C; \.NET4\.0E\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
