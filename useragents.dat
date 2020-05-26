@@ -109,6 +109,10 @@ exclude Linguee Bot \(http://www\.linguee\.com/bot; bot@linguee\.com\)
 exclude eContext/1\.0 \(eContext Classification Engine\)
 ## Super old Ubuntu visits hundreds of times per day? Doubtful.
 exclude Mozilla/5\.0 \(X11; U; Linux i686; en-GB; rv:1\.8\.1\.10\) Gecko/20071126 Ubuntu/7\.10 \(gutsy\) Firefox/2\.0\.0\.10
+exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/535\.11 \(KHTML, like Gecko\) Ubuntu/11\.10 Chromium/17\.0\.963\.65 Chrome/17\.0\.963\.65 Safari/535\.11\)
+## Also seems to have had a problem with proper escaping
+exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/535\.11 \(KHTML, like Gecko\) Ubuntu/11\.10 Chromium/17\.0\.963\.65 Chrome/17\.0\.963\.65 Safari/535\.11\\x22\'\`\-\-
+
 ## The entirety of one bogus UA.
 exclude Mozilla/4\.0
 ## Fake Facebook bot, missing the first letter
