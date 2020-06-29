@@ -32,7 +32,7 @@ exclude .* \(Amazonbot/.*; \+https://developer\.amazon\.com/support/amazonbot\)
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.(6|7|8|9|10); rv:(37|38|43|68)\.0\) Gecko/20100101 Firefox/(37|38|43|68)\.0 
 exclude Mozilla/5\.0 \(Windows NT (6\.0|6\.1|6\.2|6\.3|10\.0); (WOW64; |Win64; x64; |)rv:(28|37|38|43|50|51|56|68|76)\.0\) Gecko/20100101 Firefox/(28|37|38|43|50|51|56|68|76)\.0
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/34\.0\.1847\.131 Safari/537\.36
-exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:(1\.8\.1\.6|1\.9\.2)\) Gecko/(20100115|20070725| Firefox/(2\.0\.0\.6|3\.6)
+exclude Mozilla/5\.0 \(Windows; U; Windows NT 5\.1; en-US; rv:(1\.8\.1\.6|1\.9\.2)\) Gecko/(20100115|20070725) Firefox/(2\.0\.0\.6|3\.6)
 exclude Mozilla/5\.0 \(Windows NT 6\.[01]; Win64; x64; rv:(50|73)\.0\) Gecko/20100101 Firefox/(50|73)\.0
 exclude Mozilla/5\.0 \(Windows NT 6\.1; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/68\.0\.3440\.7 Safari/537\.36
 ## 2020-03-20
