@@ -56,6 +56,8 @@ exclude serpstatbot/.*
 exclude .*[Ss]pider.*
 ## The Splash scraper: https://github.com/scrapinghub/splash - fakes UAs but with its own signature
 exclude .* splash Version/.* .*
+## 2020-07-20
+exclude .* \+centuryb\.o\.t9\[at\]gmail\.com.*
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
@@ -71,6 +73,10 @@ exclude Mozilla/5\.0\(Linux;U;Android 5\.1\.1;zh-CN;OPPO A33 Build/LMY47V\) Appl
 exclude Mozilla/5\.0 \(iPad; CPU OS 7_0 like Mac OS X\) AppleWebKit/537\.51\.1 \(KHTML, like Gecko\) Version/7\.0 Mobile/11A465 Safari/9537\.53
 ## 2020-04-14, incomplete fake Windows 10 with no other UA info
 exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\)
+## 2020-07 to 08 - fake older OSes with much older Chrome; runs multiple fake agents each
+## day, meaning we'll have to block old Chromes of this style universally - likely these
+## are mismatched to the WebKit version though
+exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[789]|3[01234567]|4[01])\..* Safari/537\.36
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
@@ -85,6 +91,8 @@ exclude .* Daum/.*; \+http://cs\.daum\.net.*
 exclude Mozilla/5\.0 \(\(Windows; U; Windows NT 6\.1; fr; rv:1\.9\.2\) Gecko/20100115 Firefox/3\.6\)
 ## Obvious crawler hiding behind a very recent UA, remove as soon as it stops.
 exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/74\.0\.3729\.169 Safari/537\.36
+## 2020-07
+exclude Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.7.12) Gecko/20060202 CentOS/1.0.7-1.4.3.centos4 Firefox/1.0.7.*
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
@@ -98,7 +106,7 @@ exclude .* HeadlessChrome/.*
 ## 2020-02-14
 exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/74\.0\.3729\.157 Safari/537\.36
 ## 2020-03-20, unbelievable Windows 7 renaissance
-exclude Mozilla/5\.0 \(Windows NT 6\.1\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/.* Safari/537\.36
+exclude Mozilla/5\.0 \(Windows NT 6\.1\) AppleWebKit/.* \(KHTML, like Gecko\) Chrome/.* Safari/.*
 ## 2020-04-14
 exclude Re-re Studio \(\+http://2re\.site/\)
 exclude CcahiBot \(ccahi\.feedback\@gmail\.com\)
@@ -108,6 +116,8 @@ exclude Mozilla/5\.0 \(Windows NT 6\.2; WOW64; Trident/7\.0; rv:11\.0\) like Gec
 exclude Turnitin \(https://bit\.ly/2UvnfoQ\)
 exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 5\.1; \.NET CLR 2\.0\.50727; \.NET CLR 1\.1\.4322\)
 exclude AccompanyBot
+## 2020-07
+exclude BananaBot/.*
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -118,6 +128,8 @@ exclude Mozilla/5\.0 \(X11; U; Linux i686; en-GB; rv:1\.8\.1\.10\) Gecko/2007112
 exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/535\.11 \(KHTML, like Gecko\) Ubuntu/11\.10 Chromium/17\.0\.963\.65 Chrome/17\.0\.963\.65 Safari/535\.11\)
 ## Also seems to have had a problem with proper escaping
 exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/535\.11 \(KHTML, like Gecko\) Ubuntu/11\.10 Chromium/17\.0\.963\.65 Chrome/17\.0\.963\.65 Safari/535\.11\\x22\'\`\-\-
+## 2020-07
+exclude Mozilla/5\.0 \(compatible; heritrix/.* \+http://jiransecurity\.com\)
 
 ## The entirety of one bogus UA.
 exclude Mozilla/4\.0
@@ -134,6 +146,8 @@ exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 6\.1; SLCC2; \.NET CLR 
 exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 6\.0; WOW64; SLCC1; \.NET CLR 3\.0\.04506\)
 exclude Mozilla/5\.0 \(Windows NT 6\.1; APCPMS=\^N201610260943063673863E5829051FACE43F_150\^; Trident/7\.0; rv:11\.0\) like Gecko
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64; rv:56\.0\) Gecko/20100101 Firefox/56\.0,gzip\(gfe\)
+# 2020-08
+exclude Mozilla/5\.0 \( compatible \)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
