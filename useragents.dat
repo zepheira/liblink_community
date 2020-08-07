@@ -92,7 +92,7 @@ exclude Mozilla/5\.0 \(\(Windows; U; Windows NT 6\.1; fr; rv:1\.9\.2\) Gecko/201
 ## Obvious crawler hiding behind a very recent UA, remove as soon as it stops.
 exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/74\.0\.3729\.169 Safari/537\.36
 ## 2020-07
-exclude Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.7.12) Gecko/20060202 CentOS/1.0.7-1.4.3.centos4 Firefox/1.0.7.*
+exclude Mozilla/5\.0 \(X11; U; Linux x86_64; en-US; rv:1\.7\.12\) Gecko/20060202 CentOS/1\.0\.7\-1\.4\.3\.centos4 Firefox/1\.0\.7.*
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
