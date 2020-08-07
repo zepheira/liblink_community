@@ -76,7 +76,7 @@ exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\)
 ## 2020-07 to 08 - fake older OSes with much older Chrome; runs multiple fake agents each
 ## day, meaning we'll have to block old Chromes of this style universally - likely these
 ## are mismatched to the WebKit version though
-exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[789]|3[01234567]|4[01])\..* Safari/537\.36
+exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[789]|3[01234567]|4[01])\..* Safari/(537\.36|4E423F).*
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
