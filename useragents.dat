@@ -5,9 +5,6 @@
 # Example: 
 # exclude AhrefsBot/.*
 
-# Transient, for abuse of a modern and popular UA in 2020-09-01 to 05, 08 to 09.
-exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10_13_6\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/84\.0\.4147\.89
-
 #$ over 100,000 hits/day
 ## Most hits.
 exclude .* MJ12bot/.*; http://mj12bot\.com/\)
