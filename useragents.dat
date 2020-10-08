@@ -79,9 +79,6 @@ exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\)
 ## day, meaning we'll have to block old Chromes of this style universally - likely these
 ## are mismatched to the WebKit version though
 exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[789]|3[01234567]|4[01])\..* Safari/(537\.36|4E423F).*
-## 2020-09 Transient one-off to handle a link.library.austintexas.gov crawling bot, this is
-## a legitimate UA and shouldn't be blocked except for the one day, 220-09-23
-exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/78\.0\.3904\.108 Safari/537\.36
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
