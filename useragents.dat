@@ -132,6 +132,8 @@ exclude AccompanyBot
 exclude BananaBot/.*
 ## 2020-08
 exclude Scrapy/.* \(\+https://scrapy\.org\)
+## 2020-12
+exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 5\.0\) SiteCheck-sitecrawl by Siteimprove\.com
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
