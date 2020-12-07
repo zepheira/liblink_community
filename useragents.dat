@@ -62,6 +62,10 @@ exclude .*[Ss]pider.*
 exclude .* splash Version/.* .*
 ## 2020-07-20
 exclude .* \+centuryb\.o\.t9\[at\]gmail\.com.*
+## 2020-11 Attempted SQL injection attack via UA, malicious SQL comes after UA or in fragments
+exclude Mozilla/5\.0 \(X11; U; Linux x86_64; en-US\) AppleWebKit/533\.4 \(KHTML, like Gecko\) Chrome/5\.0\.375\.99 Safari/533\.4.*
+## Part of above, involves a number of 1234=1234 type clauses to force matches
+exclude .*(ORDER BY|MAKE_SET|CASE WHEN|AS .... WHERE|OR ....=....|\(....=....|\(SELECT |RDB\$DATABASE).*
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
