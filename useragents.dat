@@ -71,7 +71,7 @@ exclude .*(ORDER BY|MAKE_SET|CASE WHEN|AS .... WHERE|OR ....=....|\(....=....|\(
 ## 2020-12
 exclude Archive Team
 ## 2020-12-17 only, crawling one site
-#exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
+exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
@@ -114,7 +114,7 @@ exclude Mozilla/5\.0 \(X11; Linux x86_64\) AppleWebKit/537\.36 \(KHTML, like Gec
 ## 2020-12 SQL attacking in URL and UA
 exclude Mozilla/5\.0 \(Windows; U; Windows NT 6\.0; es-es\) AppleWebKit/528\.16 \(KHTML, like Gecko\) Version/4\.0 Safari/528\.16.*
 ## 2020-12-14 only, crawling one site
-exclude Mozilla/5\.0 \(iPhone; CPU iPhone OS 10_3_1 like Mac OS X\) AppleWebKit/603\.1\.30 \(KHTML, like Gecko\) Version/10\.0 Mobile/14E304 Safari/602\.1
+#exclude Mozilla/5\.0 \(iPhone; CPU iPhone OS 10_3_1 like Mac OS X\) AppleWebKit/603\.1\.30 \(KHTML, like Gecko\) Version/10\.0 Mobile/14E304 Safari/602\.1
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
