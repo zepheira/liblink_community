@@ -54,7 +54,7 @@ exclude Rustbot/0\.3
 ## 2020-12
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10_15_7\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/86\.0\.4240\.111 Safari/537\.36
 ## 2020-12-22 through 26 only, crawling one site
-#exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/75\.0\.3729\.169 Safari/537\.36
+exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/75\.0\.3729\.169 Safari/537\.36
 
 #$ 10,000 hits/day
 exclude serpstatbot/.*
@@ -71,7 +71,7 @@ exclude .*(ORDER BY|MAKE_SET|CASE WHEN|AS .... WHERE|OR ....=....|\(....=....|\(
 ## 2020-12
 exclude Archive Team
 ## 2020-12-17 only, crawling one site
-exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
+#exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
