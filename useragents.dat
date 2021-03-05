@@ -150,7 +150,7 @@ exclude .* SiteCheck\-sitecrawl by Siteimprove\.com
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.14; rv:68\.0\) Gecko/20100101 Firefox/68\.0
 ## 2021-02
 exclude Re\-re Studio \(\+http://vip0\.ru/\)
-exclude TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl; s\.r\.g\.pletinckx; at; student\.tudelft\.nl\)
+exclude .* TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl; s\.r\.g\.pletinckx; at; student\.tudelft\.nl\)
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
