@@ -148,6 +148,9 @@ exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 5\.0\) SiteCheck-sitecr
 exclude .* SiteCheck\-sitecrawl by Siteimprove\.com
 ## Crawling .edu sites in alphabetical order hidden behind a slightly older Mac Firefox
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.14; rv:68\.0\) Gecko/20100101 Firefox/68\.0
+## 2021-02
+exclude Re\-re Studio \(\+http://vip0\.ru/\)
+exclude TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl; s\.r\.g\.pletinckx; at; student\.tudelft\.nl\)
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
