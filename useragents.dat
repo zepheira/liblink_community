@@ -47,7 +47,7 @@ exclude Pcore-HTTP/.*
 exclude CCBot/.* \(https://commoncrawl\.org/faq/\)
 exclude Mozilla/5\.0 \(compatible; YandexBot/.*; \+http://yandex\.com/bots\).*
 exclude PiplBot.*\(\+http://www\.pipl\.com/bot/\)
-exclude .* DotBot/.*; http://www\.opensiteexplorer\.org/dotbot[,;] help@moz\.com\)
+exclude .* DotBot/.*; \+?http://www\.opensiteexplorer\.org/dotbot[,;] help@moz\.com\)
 ## Bot(net?) hiding behind an old user agent; so far a one off, hit hard on one day
 exclude Mozilla/4\.0 \(compatible; MSIE [67]\.0; Windows NT (6\.0;|5\.1; SV1)\)
 ## 2020-06
