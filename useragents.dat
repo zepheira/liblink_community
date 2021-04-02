@@ -47,6 +47,7 @@ exclude Pcore-HTTP/.*
 exclude CCBot/.* \(https://commoncrawl\.org/faq/\)
 exclude Mozilla/5\.0 \(compatible; YandexBot/.*; \+http://yandex\.com/bots\).*
 exclude PiplBot.*\(\+http://www\.pipl\.com/bot/\)
+exclude .* DotBot/.*; http://www\.opensiteexplorer\.org/dotbot[,;] help@moz\.com\)
 ## Bot(net?) hiding behind an old user agent; so far a one off, hit hard on one day
 exclude Mozilla/4\.0 \(compatible; MSIE [67]\.0; Windows NT (6\.0;|5\.1; SV1)\)
 ## 2020-06
@@ -72,10 +73,12 @@ exclude .*(ORDER BY|MAKE_SET|CASE WHEN|AS .... WHERE|OR ....=....|\(....=....|\(
 exclude Archive Team
 ## 2020-12-17 only, crawling one site
 #exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
+## 2020-03 ruining a brand-new agent as soon as it's in the wild
+exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 11\.1; rv:84\.0\) Gecko/20100101 Firefox/84\.0
+exclude Mozilla/5.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
-exclude .* DotBot/.*; http://www\.opensiteexplorer\.org/dotbot, help@moz\.com\)
 exclude .* [Bb]ingbot/.*; \+http://www\.bing\.com/bingbot\.html?\)
 ## These four appear to act in concert.  In that regard they appear to be similar
 ## to the other set of four out of China, but with less regional bits.
@@ -168,9 +171,8 @@ exclude ReachabilityCheckBot/0\.2
 exclude Mozilla/4\.0 \(compatible; MSIE 6\.0b; Windows NT 5\.1; DigExt\)
 ## 2020-12
 exclude Mozilla/5\.0 \(compatible; Domains Project/1\.2\.9; \+https://domainsproject\.org\)
-exclude Mozilla/5\.0 \(compatible; Adsbot/3\.1\)
+exclude Mozilla/5\.0 \(compatible; Adsbot/3\.1\; \+https://seostar\.co/robot/\)
 exclude HTMLParser/2\.0
-
 ## The entirety of one bogus UA.
 exclude Mozilla/4\.0
 ## Fake Facebook bot, missing the first letter
@@ -186,8 +188,12 @@ exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 6\.1; SLCC2; \.NET CLR 
 exclude Mozilla/4\.0 \(compatible; MSIE 7\.0; Windows NT 6\.0; WOW64; SLCC1; \.NET CLR 3\.0\.04506\)
 exclude Mozilla/5\.0 \(Windows NT 6\.1; APCPMS=\^N201610260943063673863E5829051FACE43F_150\^; Trident/7\.0; rv:11\.0\) like Gecko
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64; rv:56\.0\) Gecko/20100101 Firefox/56\.0,gzip\(gfe\)
-# 2020-08
+## 2020-08
 exclude Mozilla/5\.0 \( compatible \)
+## 2020-03
+exclude Mozilla/5\.0
+exclude Go-http-client/1\.1
+exclude LanaiBotmarch
 
 #$ 10 hits/day
 exclude Twitterbot/.*
