@@ -154,6 +154,8 @@ exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10\.14; rv:68\.0\) Gecko/201001
 ## 2021-02
 exclude Re\-re Studio \(\+http://vip0\.ru/\)
 exclude .* TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl; s\.r\.g\.pletinckx; at; student\.tudelft\.nl\)
+## 2021-03
+exclude User-Agent: Mozilla/5\.0 .*
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
