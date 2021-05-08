@@ -94,6 +94,9 @@ exclude Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\)
 ## day, meaning we'll have to block old Chromes of this style universally - likely these
 ## are mismatched to the WebKit version though
 exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[789]|3[01234567]|4[01])\..* Safari/(537\.36|4E423F).*
+## 2021-04
+exclude GoodBot
+exclude .* Neevabot/1\.0; \+https://neeva\.com/neevabot\)
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
@@ -156,6 +159,8 @@ exclude Re\-re Studio \(\+http://vip0\.ru/\)
 exclude .* TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl; s\.r\.g\.pletinckx; at; student\.tudelft\.nl\)
 ## 2021-03
 exclude User-Agent: Mozilla/5\.0 .*
+## 2021-05
+exclude httpx - Open-source project \(github\.com/projectdiscovery/httpx\)
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -182,7 +187,7 @@ exclude Mozilla/4\.0
 exclude acebookexternalhit/1\.0 \(\+http://www\.facebook\.com/externalhit_uatext\.php\)
 exclude Keybot Translation-Search-Machine
 exclude 7Siters/.* \(\+https://7ooo\.ru/siters/\)
-##2020-04-14
+## 2020-04-14
 exclude Gigabot
 ## 2020-05
 exclude Mozilla/4\.0 \(compatible; MSIE 8\.0; Windows NT 6\.1; WOW64; Trident/4\.0; SLCC2; \.NET CLR 2\.0\.50727; InfoPath\.2\)
@@ -193,10 +198,12 @@ exclude Mozilla/5\.0 \(Windows NT 6\.1; APCPMS=\^N201610260943063673863E5829051F
 exclude Mozilla/5\.0 \(Windows NT 6\.1; WOW64; rv:56\.0\) Gecko/20100101 Firefox/56\.0,gzip\(gfe\)
 ## 2020-08
 exclude Mozilla/5\.0 \( compatible \)
-## 2020-03
+## 2021-03
 exclude Mozilla/5\.0
 exclude Go-http-client/1\.1
 exclude LanaiBotmarch
+## 2021-04
+exclude LanaiBotapr1
 
 #$ 10 hits/day
 exclude Twitterbot/.*
