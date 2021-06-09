@@ -97,6 +97,8 @@ exclude Mozilla/5\.0 \(.*\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/(2[
 ## 2021-04
 exclude GoodBot
 exclude .* Neevabot/1\.0; \+https://neeva\.com/neevabot\)
+## 2021-05 - fake older OS and browser
+exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10_12_6\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/60\.0\.3112\.90 Safari/537\.36
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
@@ -204,6 +206,8 @@ exclude Go-http-client/1\.1
 exclude LanaiBotmarch
 ## 2021-04
 exclude LanaiBotapr1
+## 2021-05
+exclude lanaibot .*
 
 #$ 10 hits/day
 exclude Twitterbot/.*
@@ -213,6 +217,8 @@ exclude weborama-fetcher \(\+http://www\.weborama\.com\)
 exclude Mozilla/5\.0 \(compatible; YandexAccessibilityBot/3\.0; \+http://yandex\.com/bots\)
 exclude facebookexternalhit/.* \(\+http://www\.facebook\.com/externalhit_uatext\.php\)
 exclude .* linkdexbot/.*; \+http://www\.linkdex\.com/bots/\)
+## 2021-05
+exclude .* GeedoBot; \+http://www\.geedo\.com/bot\.html\)
 
 ##### No recent hits
 
