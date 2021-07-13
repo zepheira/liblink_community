@@ -41,6 +41,8 @@ exclude Molokai/0\.2 \(\+http://www\.example\.com/bot\.html\)
 exclude Mozilla/4\.0 \(compatible; MSIE 6\.0; Windows NT 5\.1; SV1; \.NET CLR 2\.0\.50727; \.NET CLR 1\.1\.4322\)
 ## 2020-08
 exclude Pcore-HTTP/.*
+## 2021-06
+exclude .* BoldBrains SC/.*
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
@@ -163,6 +165,9 @@ exclude .* TUDelftNetworkMeasurement/2020 \(contact; t\.fiebig; at; tudelft\.nl;
 exclude User-Agent: Mozilla/5\.0 .*
 ## 2021-05
 exclude httpx - Open-source project \(github\.com/projectdiscovery/httpx\)
+## 2021-06
+exclude .* InfoTigerBot/.*; \+https://infotiger\.com/bot\)
+exclude curl/.*
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -208,6 +213,9 @@ exclude LanaiBotmarch
 exclude LanaiBotapr1
 ## 2021-05
 exclude lanaibot .*
+## 2021-06
+exclude Java-http-client/.*
+exclude TinyTestBot
 
 #$ 10 hits/day
 exclude Twitterbot/.*
