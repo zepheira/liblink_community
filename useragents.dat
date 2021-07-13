@@ -215,6 +215,7 @@ exclude LanaiBotapr1
 exclude lanaibot .*
 ## 2021-06
 exclude Java-http-client/.*
+exclude Java/.*
 exclude TinyTestBot
 
 #$ 10 hits/day
