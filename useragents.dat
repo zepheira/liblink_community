@@ -168,6 +168,8 @@ exclude httpx - Open-source project \(github\.com/projectdiscovery/httpx\)
 ## 2021-06
 exclude .* InfoTigerBot/.*; \+https://infotiger\.com/bot\)
 exclude curl/.*
+## 2021-07
+exclude subjs
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -217,6 +219,10 @@ exclude lanaibot .*
 exclude Java-http-client/.*
 exclude Java/.*
 exclude TinyTestBot
+## 2021-07
+exclude node-fetch/.* \(\+https://github\.com/bitinn/node-fetch\)
+exclude TinyBotTestUA
+exclude .* archive.org_bot; Archive-It; \+http://archive-it\.org/files/site-owners\.html\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
