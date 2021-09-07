@@ -8,7 +8,7 @@
 #$ over 100,000 hits/day
 ## Most hits.
 exclude .* MJ12bot/.*; http://mj12bot\.com/\)
-exclude .* PetalBot;.*
+exclude .*[ ;]PetalBot;.*
 ## Generic rule for anything identifying itself as a crawler.  Avoid adding anything else that matches this.
 exclude .*[Cc]rawler.*
 exclude Mozilla/5\.0 \(compatible; SEOkicks; \+https://www\.seokicks\.de/robot\.html\)
@@ -101,6 +101,8 @@ exclude GoodBot
 exclude .* Neevabot/1\.0; \+https://neeva\.com/neevabot\)
 ## 2021-05 - fake older OS and browser
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 10_12_6\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/60\.0\.3112\.90 Safari/537\.36
+## 2021-08
+exclude Arctic Wolf Scan
 
 ## This is likely a valid user agent but is being abused by a misbehaved bot, possibly a botnet based on IPs it uses
 exclude Mozilla/[45]\.0 \(compatible; MSIE 8\.0; Windows NT 5\.[01]; Trident/4\.0; .*
@@ -168,7 +170,7 @@ exclude httpx - Open-source project \(github\.com/projectdiscovery/httpx\)
 ## 2021-06
 exclude .* InfoTigerBot/.*; \+https://infotiger\.com/bot\)
 exclude curl/.*
-## 2021-07
+## 2021-08
 exclude subjs
 
 #$ 100 hits/day
@@ -222,6 +224,7 @@ exclude TinyTestBot
 ## 2021-07
 exclude node-fetch/.* \(\+https://github\.com/bitinn/node-fetch\)
 exclude TinyBotTestUA
+## 2021-08
 exclude .* archive.org_bot; Archive-It; \+http://archive-it\.org/files/site-owners\.html\)
 
 #$ 10 hits/day
