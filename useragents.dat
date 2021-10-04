@@ -172,6 +172,8 @@ exclude .* InfoTigerBot/.*; \+https://infotiger\.com/bot\)
 exclude curl/.*
 ## 2021-08
 exclude subjs
+## 2021-09
+exclude Riddler \(http://riddler\.io/about\)
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -226,6 +228,9 @@ exclude node-fetch/.* \(\+https://github\.com/bitinn/node-fetch\)
 exclude TinyBotTestUA
 ## 2021-08
 exclude .* archive.org_bot; Archive-It; \+http://archive-it\.org/files/site-owners\.html\)
+## 2021-09
+exclude Mozilla/4\.0 \(Mozilla/4\.0; MSIE 7\.0; Windows NT 5\.1; FDM; SV1\)
+exclude Mozilla/5\.0 \(compatible; DataForSeoBot/1\.0; \+https://dataforseo\.com/dataforseo-bot\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
