@@ -79,7 +79,7 @@ exclude Archive Team
 exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 11\.1; rv:84\.0\) Gecko/20100101 Firefox/84\.0
 exclude Mozilla/5.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
 ## 2021-11 similar to above
-exclude ArchiveTeam
+exclude ArchiveTeam.*
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
