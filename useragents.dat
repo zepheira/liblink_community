@@ -82,6 +82,8 @@ exclude Mozilla/5\.0 \(Macintosh; Intel Mac OS X 11\.1; rv:84\.0\) Gecko/2010010
 exclude Mozilla/5.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/87\.0\.4280\.66 Safari/537\.36
 ## 2021-11 similar to above
 exclude ArchiveTeam.*
+## 2022-01
+exclude HonoluluBot
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
@@ -239,6 +241,8 @@ exclude .* archive.org_bot; Archive-It; \+http://archive-it\.org/files/site-owne
 ## 2021-09
 exclude Mozilla/4\.0 \(Mozilla/4\.0; MSIE 7\.0; Windows NT 5\.1; FDM; SV1\)
 exclude Mozilla/5\.0 \(compatible; DataForSeoBot/1\.0; \+https://dataforseo\.com/dataforseo-bot\)
+## 2022-01
+exclude Wget/* \(linux-gnu\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
