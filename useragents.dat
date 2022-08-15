@@ -88,6 +88,7 @@ exclude HonoluluBot
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
 exclude .* [Bb]ingbot/.*; \+http://www\.bing\.com/bingbot\.html?\)
+exclude .* bingbot/2\.0; \+http://www\.bing\.com/bingbot\.htm\)
 ## These four appear to act in concert.  In that regard they appear to be similar
 ## to the other set of four out of China, but with less regional bits.
 #Mozilla/5.0(Linux;Android 5.1.1;OPPO A33 Build/LMY47V;wv) AppleWebKit/537.36(KHTML,link Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36
@@ -184,6 +185,8 @@ exclude subjs
 exclude Riddler \(http://riddler\.io/about\)
 ## 2021-12
 exclude newspaper/.*
+## 2022-07
+exclude .* Mail\.RU_Bot/2\.0; \+https://help\.mail\.ru/webmaster/indexing/robots\)
 
 #$ 100 hits/day
 exclude Python/.* aiohttp/.*
@@ -245,6 +248,10 @@ exclude Mozilla/5\.0 \(compatible; DataForSeoBot/1\.0; \+https://dataforseo\.com
 exclude Wget/* \(linux-gnu\)
 ## 2022-03
 exclude zgtemple-bot
+## 2022-07
+exclude .* intelx\.io_bot \+https://intelx\.io\)
+exclude mozilla
+exclude .* Domains Project/.*; \+https://domainsproject\.org\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
