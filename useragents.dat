@@ -87,8 +87,7 @@ exclude HonoluluBot
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
-exclude .* [Bb]ingbot/.*; \+http://www\.bing\.com/bingbot\.html?\)
-exclude .* bingbot/2\.0; \+http://www\.bing\.com/bingbot\.htm\)
+exclude .* [Bb]ingbot/.*; \+http://www\.bing\.com/bingbot\.html?\).*
 ## These four appear to act in concert.  In that regard they appear to be similar
 ## to the other set of four out of China, but with less regional bits.
 #Mozilla/5.0(Linux;Android 5.1.1;OPPO A33 Build/LMY47V;wv) AppleWebKit/537.36(KHTML,link Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36
@@ -136,6 +135,8 @@ exclude Mozilla/5\.0 \(Windows; U; Windows NT 6\.0; es-es\) AppleWebKit/528\.16 
 #exclude Mozilla/5\.0 \(iPhone; CPU iPhone OS 10_3_1 like Mac OS X\) AppleWebKit/603\.1\.30 \(KHTML, like Gecko\) Version/10\.0 Mobile/14E304 Safari/602\.1
 ## 2021-10
 exclude Mozilla/5\.0 \(Windows NT 6\.3; Trident/7\.0; rv:11\.0\) like Gecko
+## 2022-09
+exclude .* SeekportBot; \+https://bot\.seekport\.com\)
 
 #$ 500 hits/day
 ## Yes, this is the entire UA.
@@ -245,7 +246,7 @@ exclude .* archive.org_bot; Archive-It; \+http://archive-it\.org/files/site-owne
 exclude Mozilla/4\.0 \(Mozilla/4\.0; MSIE 7\.0; Windows NT 5\.1; FDM; SV1\)
 exclude Mozilla/5\.0 \(compatible; DataForSeoBot/1\.0; \+https://dataforseo\.com/dataforseo-bot\)
 ## 2022-01
-exclude Wget/* \(linux-gnu\)
+exclude Wget/.* \(linux-gnu\)
 ## 2022-03
 exclude zgtemple-bot
 ## 2022-07
@@ -263,6 +264,7 @@ exclude facebookexternalhit/.* \(\+http://www\.facebook\.com/externalhit_uatext\
 exclude .* linkdexbot/.*; \+http://www\.linkdex\.com/bots/\)
 ## 2021-05
 exclude .* GeedoBot; \+http://www\.geedo\.com/bot\.html\)
+exclude .* MojeekBot/.*; \+https://www\.mojeek\.com/bot\.html\)
 
 ##### No recent hits
 
