@@ -253,6 +253,9 @@ exclude zgtemple-bot
 exclude .* intelx\.io_bot \+https://intelx\.io\)
 exclude mozilla
 exclude .* Domains Project/.*; \+https://domainsproject\.org\)
+## 2022-10
+exclude WallabyupBot/.* \(\+https://wallabyup\.com/bot\.php\) Surfing code: AU
+exclude Mozilla/5.0 \(compatible; archive\.org_bot/.* \+http://pandora\.nla\.gov\.au/crawl\.html\)
 
 #$ 10 hits/day
 exclude Twitterbot/.*
