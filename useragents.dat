@@ -87,6 +87,7 @@ exclude HonoluluBot
 
 #$ 2,000 hits/day
 exclude .* Googlebot/.*; \+http://www\.google\.com/bot.html\)
+exclude Googlebot/.* \(\+http://www\.google\.com/bot.html\)
 exclude .* [Bb]ingbot/.*; \+http://www\.bing\.com/bingbot\.html?\).*
 ## These four appear to act in concert.  In that regard they appear to be similar
 ## to the other set of four out of China, but with less regional bits.
