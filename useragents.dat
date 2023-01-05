@@ -45,6 +45,8 @@ exclude Mozilla/4\.0 \(compatible; MSIE 6\.0; Windows NT 5\.1; SV1; \.NET CLR 2\
 exclude Pcore-HTTP/.*
 ## 2021-06
 exclude .* BoldBrains SC/.*
+## 2022-12
+exclude Timpibot/.* \(\+http://www\.timpi\.io\)
 
 #$ 25,000 hits/day
 ## This appears to be the most recent variant on their UA.
