@@ -259,6 +259,8 @@ exclude .* Domains Project/.*; \+https://domainsproject\.org\)
 ## 2022-10
 exclude WallabyupBot/.* \(\+https://wallabyup\.com/bot\.php\) Surfing code: AU
 exclude Mozilla/5.0 \(compatible; archive\.org_bot/.* \+http://pandora\.nla\.gov\.au/crawl\.html\)
+## 2023-01
+exclude Playwright/.* \(x64; ubuntu .*\) python/.*
 
 #$ 10 hits/day
 exclude Twitterbot/.*
@@ -271,6 +273,7 @@ exclude .* linkdexbot/.*; \+http://www\.linkdex\.com/bots/\)
 ## 2021-05
 exclude .* GeedoBot; \+http://www\.geedo\.com/bot\.html\)
 exclude .* MojeekBot/.*; \+https://www\.mojeek\.com/bot\.html\)
+exclude node-fetch
 
 ##### No recent hits
 
