@@ -261,6 +261,8 @@ exclude WallabyupBot/.* \(\+https://wallabyup\.com/bot\.php\) Surfing code: AU
 exclude Mozilla/5.0 \(compatible; archive\.org_bot/.* \+http://pandora\.nla\.gov\.au/crawl\.html\)
 ## 2023-01
 exclude Playwright/.* \(x64; ubuntu .*\) python/.*
+## 2023-02
+exclude WallabyupBot/.* \(\+https://wallabyup\.au/bot\.php\) Surfing code: .*
 
 #$ 10 hits/day
 exclude Twitterbot/.*
